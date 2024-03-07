@@ -11,6 +11,10 @@ Par équipe de 2 ou 3. Prévoir une soutenance pour la prochaine fois.
 1. **Extraction des données**
    - Créez une fonction `extract_boston_salary` qui prend une URL en entrée et retourne les données de l'API des salaires de Boston. Utilisez la bibliothèque `urllib.request` pour accéder à l'API et `json` pour lire les données.
 
+```python
+url = 'https://data.boston.gov/api/3/action/datastore_search?resource_id=31358fd1-849a-48e0-8285-e813f6efbdf1'
+```
+
 2. **Transformation des données**
    - Créez une fonction `transform` qui prend les données extraites en entrée et effectue les transformations suivantes :
       - Éliminez les lignes problématiques où la colonne 'TOTAL EARNINGS' est égale à 'TOTAL EARNINGS'.
