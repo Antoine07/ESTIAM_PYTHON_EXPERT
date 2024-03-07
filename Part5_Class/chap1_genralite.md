@@ -155,9 +155,9 @@ class A:
 
 ## 001 Exercice Product
 
-Créez une classe Product avec name et price. Créez le setters et getter uniquement pour le prix comme vu précédement afin de données valeurs à vos objets de type Product (hydratation des objets).
+Créez une classe Product avec name et price. Créez le setters et getters pour le prix et le nom comme vu précédement afin de données valeurs à vos objets de type Product (hydratation des objets).
 
-Cette classe aura un attribut attaché à la classe qui définiera sa tva.
+Cette classe aura un attribut attaché à la classe qui définiera sa tva. Créez également une méthode qui vous permettra calculer le prix TTC.
 
 Créez deux produits apple et orange respectivement avec les prix HT suivants : 1.2 et 1.1, la tva sera de 20%. 
 
